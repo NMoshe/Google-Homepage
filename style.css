@@ -1,0 +1,142 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+nav {
+    padding: 12px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding: 8px 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.lnav {
+    float: left;
+}
+
+.rnav {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.apps {
+    vertical-align: middle;
+}
+
+.apps input {
+    filter: opacity(50%);
+    margin-right: 12px;
+    margin-left: 8px;
+}
+
+.apps input:hover {
+    filter: opacity(100%);
+}
+
+.signin a {
+    background-color: #3874db;
+    color: white;
+    border-radius: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.signin a:hover {
+    text-decoration: none;
+}
+
+.center {
+    margin-top: 165px;
+    text-align: center;
+}
+
+.search {
+    border-style: solid;
+    margin: 30px auto;
+    width: 600px;
+    height: 45px;
+    border-radius: 22.5px;
+    border-color: #dfe1e5;
+    border-width: 1px;
+    font-size: 1em;
+}
+
+.search:hover{
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search input[type="search"] {
+    height: 45px;
+    width: 500px;
+    font-size: 1em;
+    border-style: none;
+    outline: none;
+}
+
+.sbuttons button {
+    color: grey;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+
+.sbuttons button:hover {
+    border: 1px solid rgb(209, 207, 207);
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+footer {
+    background-color: #e4e3e3;
+    width: 100%;
+    border-top: 1px solid rgb(209, 206, 206);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 45px;
+}
+
+footer a {
+    color: grey;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+.searchicon{
+    transform: translate(-90%,20%);
+}
+
+.soundicon{
+    position: absolute;
+    transform: translate(20%,50%);
+}
